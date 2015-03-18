@@ -6309,6 +6309,14 @@ a:hover {
   text-align: center;
   display: inline-block;
 }
+@media (max-width: 1280px) and (min-width: 1367px) {
+  .properties-banner {
+    margin-top: 202px;
+  }
+  .properties-sub-banner {
+    margin-top: 30px;
+  }
+}
 @media (max-width: 1024px) {
   .banner-sub {
     margin-top: 10px !important;
@@ -7324,6 +7332,12 @@ footer:after {
 .country {
   color: #a4a4a4;
 }
+@media (max-width: 1280px) {
+  .nav-bar-width-wrapper {
+    width: 85%;
+    margin-left: 4%;
+  }
+}
 @media (min-width: 1024px) {
   .navbar-form-wrapper {
     width: 100%;
@@ -7607,7 +7621,7 @@ dd.p-0 {
   box-shadow: rgba(0, 0, 0, 0.37) 0 0px 5px;
   transition: all 0.5s;
 }
-@media (max-width: 1280px) and (min-width: 1367px) {
+@media (min-width: 1280px) {
   .navbar-top {
     padding-left: 0;
     padding-right: 0;
