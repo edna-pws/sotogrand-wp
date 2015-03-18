@@ -4283,8 +4283,16 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 @media (max-width: 1280px) and (min-width: 1367px) {
   .navbar-header {
-    width: 55%;
+    width: 58%;
     float: left;
+  }
+  .nav-responsive-one {
+    margin: 0 0;
+    padding: 0 0;
+  }
+  .nav-responsive-two {
+    margin: 0 0;
+    padding: 0 0;
   }
 }
 .breadcrumb {
@@ -8184,6 +8192,11 @@ dd.p-0 {
   }
   .body-par-new {
     font-size: 14px;
+  }
+}
+@media (max-width: 1280px) and (min-width: 1367px) {
+  .post-body-title {
+    font-size: 18px;
   }
 }
 .post-wrapper-img {
