@@ -7547,6 +7547,14 @@ dd.p-0 {
   margin-right: 0px !important;
   height: 35px !important;
 }
+@media (max-width: 1280px) {
+  .home-control-right {
+    top: 409px !important;
+  }
+  .home-control-left {
+    top: 409px !important;
+  }
+}
 @media (max-width: 1024px) {
   .home-control-right {
     top: 408px !important;
@@ -8261,7 +8269,7 @@ dd.p-0 {
 }
 @media (max-width: 1366px) {
   .post-body-title {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 .post-wrapper-img {
@@ -10546,14 +10554,6 @@ dd.p-0 {
   .avail-item {
     padding: 20px 0px;
   }
-}
-.dropdown-responsive-link {
-  color: #e3e3e3 !important;
-  font-size: 15px !important;
-}
-.dropdown-rooms {
-  color: #e3e3e3 !important;
-  font-size: 15px !important;
 }
 .dropdow-mega-menu .nav,
 .dropdow-mega-menu .collapse,
