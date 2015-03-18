@@ -4313,6 +4313,15 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     position: inherit !important;
   }
 }
+@media (max-width: 320px) {
+  .nav-responsive-two > li > a {
+    font-weight: normal;
+    font-size: 16px;
+  }
+  .navbar-toggle {
+    margin-right: 0;
+  }
+}
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
@@ -8018,7 +8027,7 @@ dd.p-0 {
 }
 @media (max-width: 414px) and (min-width: 385px) {
   .carousel {
-    margin-top: 196px;
+    margin-top: 0px;
   }
   .form-desktop {
     margin-left: 10px;
@@ -8043,7 +8052,7 @@ dd.p-0 {
 }
 @media (max-width: 384px) and (min-width: 376px) {
   .carousel {
-    margin-top: 196px;
+    margin-top: 0px;
   }
   .form-desktop {
     margin-left: 10px;
@@ -8071,7 +8080,7 @@ dd.p-0 {
 }
 @media (max-width: 375px) and (min-width: 321px) {
   .carousel {
-    margin-top: 196px;
+    margin-top: 0px;
   }
   .form-check {
     position: relative;
@@ -8155,7 +8164,7 @@ dd.p-0 {
 }
 @media (max-width: 320px) {
   .section-carousel {
-    margin-top: 195px;
+    margin-top: 0;
   }
   .nav-phone {
     bottom: 6px;
@@ -8614,6 +8623,11 @@ dd.p-0 {
   }
   .section-contact {
     margin-top: 162px !important;
+  }
+}
+@media (max-width: 414px) {
+  .section-featured {
+    margin-top: -86px;
   }
 }
 .carousel-inner .banner-img img {
