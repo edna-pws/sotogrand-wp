@@ -7350,7 +7350,7 @@ footer:after {
     margin-left: 4%;
   }
 }
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .navbar-form-wrapper {
     width: 100%;
   }
@@ -7644,6 +7644,12 @@ dd.p-0 {
     padding-right: 0;
   }
 }
+@media (max-width: 1366px) {
+  .navbar-top {
+    padding-left: 0;
+    padding-right: 31px;
+  }
+}
 .navbar-default .navbar-collapse {
   border: 0 !important;
 }
@@ -7833,7 +7839,7 @@ dd.p-0 {
   }
   .navbar-small-responsive {
     border-top: #000 2px solid !important;
-    margin-top: 100px;
+    margin-top: 46px;
   }
   .form-check {
     position: relative;
