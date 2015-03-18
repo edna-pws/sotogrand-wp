@@ -4308,6 +4308,11 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     padding: 0 0;
   }
 }
+@media (max-width: 414px) and (min-width: 320px) {
+  .navbar-fixed-bottom {
+    position: inherit !important;
+  }
+}
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
@@ -7362,7 +7367,7 @@ footer:after {
 }
 @media (max-width: 667px) {
   .nav-bar-width-wrapper {
-    width: 95% !important;
+    width: 100% !important;
   }
   .form-date {
     width: 45% !important;
@@ -7807,7 +7812,7 @@ dd.p-0 {
 }
 @media (max-width: 1024px) and (min-width: 769px) {
   .nav-bar-width-wrapper {
-    width: 89% !important;
+    width: 98% !important;
     margin: 0px !important;
     padding-left: 15px !important;
   }
@@ -7875,7 +7880,7 @@ dd.p-0 {
 }
 @media (max-width: 768px) and (min-width: 737px) {
   .nav-bar-width-wrapper {
-    width: 82% !important;
+    width: 72% !important;
     margin: 0px !important;
     padding-left: 15px !important;
   }
@@ -7886,9 +7891,9 @@ dd.p-0 {
 }
 @media (max-width: 736px) and (min-width: 668px) {
   .nav-bar-width-wrapper {
-    width: 81% !important;
+    width: 73% !important;
     margin: 0px !important;
-    padding-left: 15px !important;
+    padding-left: 0px !important;
   }
   .navbar-small-responsive {
     margin-top: 50px;
@@ -7920,6 +7925,9 @@ dd.p-0 {
   .section-carousel {
     margin-top: 0px;
   }
+  .form-date {
+    margin-left: 0 !important;
+  }
 }
 @media (max-width: 600px) and (min-width: 569px) {
   .navbar-fixed-top {
@@ -7934,13 +7942,16 @@ dd.p-0 {
     left: 153px;
   }
   .form-desktop {
-    margin-left: 50px;
+    margin-left: 0;
   }
   .navbar-form-wrapper .form-group {
     margin: 5px 0px;
   }
   .section-carousel {
     margin-top: 0px;
+  }
+  .form-date {
+    margin-left: 0 !important;
   }
 }
 @media (max-width: 568px) and (min-width: 415px) {
@@ -7962,6 +7973,9 @@ dd.p-0 {
   }
   .nav-bar-width-wrapper {
     width: 100% !important;
+  }
+  .form-date {
+    margin-left: 0px !important;
   }
 }
 @media (max-width: 480px) {
@@ -7989,13 +8003,14 @@ dd.p-0 {
     margin: 3px 0px;
   }
   .nav-bar-width-wrapper {
-    width: 100% !important;
+    width: 94% !important;
   }
   .form-date {
-    width: 49% !important;
+    width: 98% !important;
+    margin-left: 0 !important;
   }
   .custom-select {
-    width: 49% !important;
+    width: 98% !important;
   }
   .form-check {
     position: relative;
@@ -8020,10 +8035,11 @@ dd.p-0 {
     width: 100% !important;
   }
   .form-date {
-    width: 49% !important;
+    width: 100% !important;
+    margin-left: 0 !important;
   }
   .custom-select {
-    width: 49% !important;
+    width: 97% !important;
   }
 }
 @media (max-width: 375px) and (min-width: 321px) {
@@ -8035,7 +8051,7 @@ dd.p-0 {
     left: 91px;
   }
   .form-desktop {
-    margin-left: 10px;
+    margin-left: 5px;
   }
   .navbar-form-wrapper .form-group {
     margin: 3px 0px;
@@ -8045,6 +8061,7 @@ dd.p-0 {
   }
   .form-date {
     width: 49% !important;
+    margin-left: 0 !important;
   }
   .custom-select {
     width: 49% !important;
@@ -8064,16 +8081,20 @@ dd.p-0 {
   }
   .nav-bar-width-wrapper {
     width: 100% !important;
-    padding-left: 3px !important;
+    padding-left: 0px !important;
   }
   .form-date {
     width: 49% !important;
+    margin-left: 0 !important;
   }
   .custom-select {
     width: 49% !important;
   }
   .nav-bar-width {
     height: 144px;
+  }
+  .navbar-brand {
+    width: 79%;
   }
 }
 @media (max-width: 568px) and (min-width: 415px) {
