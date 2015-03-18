@@ -4281,7 +4281,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     padding: 0px 0px;
   }
 }
-@media (max-width: 1280px) and (min-width: 1367px) {
+@media (max-width: 1280px) {
   .navbar-header {
     width: 58%;
     float: left;
@@ -6309,7 +6309,7 @@ a:hover {
   text-align: center;
   display: inline-block;
 }
-@media (max-width: 1280px) and (min-width: 1367px) {
+@media (max-width: 1280px) {
   .properties-banner {
     margin-top: 202px;
   }
@@ -7621,7 +7621,7 @@ dd.p-0 {
   box-shadow: rgba(0, 0, 0, 0.37) 0 0px 5px;
   transition: all 0.5s;
 }
-@media (min-width: 1280px) {
+@media (max-width: 1280px) {
   .navbar-top {
     padding-left: 0;
     padding-right: 0;
@@ -8208,7 +8208,7 @@ dd.p-0 {
     font-size: 14px;
   }
 }
-@media (max-width: 1280px) and (min-width: 1367px) {
+@media (max-width: 1280px) {
   .post-body-title {
     font-size: 18px;
   }
