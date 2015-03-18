@@ -7368,6 +7368,7 @@ footer:after {
 @media (max-width: 667px) {
   .nav-bar-width-wrapper {
     width: 100% !important;
+    margin-top: 10px !important;
   }
   .form-date {
     width: 45% !important;
@@ -7863,6 +7864,11 @@ dd.p-0 {
     margin: 0 0 !important;
   }
 }
+@media (max-width: 667px) and (min-width: 320px) {
+  .navbar-fixed-top {
+    position: inherit;
+  }
+}
 @media (max-width: 768px) and (min-width: 320px) {
   .nav-responsive-one > li {
     float: left;
@@ -7909,9 +7915,6 @@ dd.p-0 {
   }
 }
 @media (max-width: 667px) and (min-width: 601px) {
-  .navbar-fixed-top {
-    position: relative;
-  }
   .navbar-small-responsive {
     margin-top: 50px;
     padding: 0px;
@@ -7950,7 +7953,7 @@ dd.p-0 {
     left: 153px;
   }
   .form-desktop {
-    margin-left: 0;
+    margin-left: 35px;
   }
   .navbar-form-wrapper .form-group {
     margin: 5px 0px;
@@ -8043,11 +8046,14 @@ dd.p-0 {
     width: 100% !important;
   }
   .form-date {
-    width: 100% !important;
+    width: 97% !important;
     margin-left: 0 !important;
   }
   .custom-select {
     width: 97% !important;
+  }
+  .navbar-form-wrapper {
+    padding-top: 10px;
   }
 }
 @media (max-width: 375px) and (min-width: 321px) {
@@ -10623,4 +10629,70 @@ dd.p-0 {
 }
 .nav.navbar-nav a:active {
   color: #28553d !important;
+}
+.dropdown-responsive-one {
+  margin-left: 19% !important;
+}
+.dropdown-responsive-link {
+  color: #e3e3e3 !important;
+  font-size: 15px !important;
+}
+.dropdown-rooms {
+  color: #e3e3e3 !important;
+  font-size: 15px !important;
+}
+@media (max-width: 1024px) {
+  .dropdown-menu-mega {
+    margin-top: 0 !important;
+    background-color: rgba(34, 34, 37, 0.9);
+    color: #fff;
+    height: 204px !important;
+  }
+}
+@media (max-width: 1366px) and (min-width: 1280px) {
+  .dropdown-responsive-one {
+    margin-left: 15%;
+    width: 42%;
+  }
+  .dropdown-responsive-left {
+    width: 38%;
+  }
+  .dropdown-responsive-right {
+    width: 39%;
+  }
+  .dropdown-responsive-two {
+    width: 43%;
+  }
+  .dropdown-responsive-left-one {
+    width: 37%;
+  }
+  .dropdown-responsive-right-two {
+    width: 46%;
+  }
+}
+@media (max-width: 1366px) {
+  .dropdown-responsive-right {
+    width: 36%;
+  }
+}
+@media (max-width: 1024px) {
+  .dropdown-responsive-one {
+    margin-left: 36px;
+    width: 46%;
+  }
+  .dropdown-responsive-right {
+    width: 43%;
+  }
+  .dropdown-responsive-left {
+    width: 43%;
+  }
+  .dropdown-responsive-two {
+    width: 46%;
+  }
+  .dropdown-responsive-left-one {
+    width: 43%;
+  }
+  .dropdown-responsive-right-two {
+    width: 57%;
+  }
 }
