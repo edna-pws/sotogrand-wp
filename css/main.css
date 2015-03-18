@@ -6333,7 +6333,20 @@ a:hover {
     margin-top: 202px;
   }
   .properties-sub-banner {
-    margin-top: 30px;
+    margin-top: 70px;
+  }
+  .section-meeting-banner {
+    margin-top: 162px;
+  }
+  .section-meeting-banner-sub {
+    margin-top: 4em;
+  }
+  .banner-promos {
+    margin-top: 8em;
+  }
+  .section-promos-banner {
+    margin-top: 162px;
+    margin-top: 4em;
   }
 }
 @media (max-width: 1024px) {
@@ -8595,6 +8608,14 @@ dd.p-0 {
     text-align: center;
   }
 }
+@media (max-width: 1280px) {
+  .section-locations {
+    margin-top: 163px;
+  }
+  .section-contact {
+    margin-top: 162px !important;
+  }
+}
 .carousel-inner .banner-img img {
   width: 100%;
 }
@@ -8865,6 +8886,11 @@ dd.p-0 {
   }
   .map-wrapper .gm-style-iw * {
     width: 93%;
+  }
+}
+@media (max-width: 1280px) {
+  .locations-header {
+    padding-top: 60px;
   }
 }
 .media-body {
@@ -10133,6 +10159,11 @@ dd.p-0 {
     padding-bottom: 50px;
   }
 }
+@media (max-width: 1280px) {
+  .photos-header {
+    padding-top: 64px;
+  }
+}
 @media (max-width: 1024px) and (min-width: 769px) {
   .properties-col-left {
     width: 49%;
@@ -10424,6 +10455,11 @@ dd.p-0 {
   }
   .reserve-par {
     font-size: 12px;
+  }
+}
+@media (max-width: 1280px) {
+  .contact-header {
+    padding-top: 60px;
   }
 }
 .avail-col-left {
