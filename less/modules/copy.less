@@ -1,0 +1,80 @@
+.copy{
+	margin: 1.5em 0 2em;
+	font-size: 16px;
+	font-weight: normal;
+	color: lighten(@post-content-color, 15%);
+	p{
+		line-height: 28px;
+		margin-bottom: 15px;
+		word-wrap: break-all;
+		hyphens: auto;
+	}
+}
+
+.copy-left {
+	p {
+		text-align: left;
+	}
+.single-par p {
+	text-align: left;
+}	
+
+@media (max-width: 1024px) and (min-width: 769px) {
+	.copy-left-center {
+		text-align: center !important;
+		padding: 0px 20px;
+	}
+	.copy-left-center {
+		font-size: 14px;
+	}
+}
+}
+.copy-subtitle{
+	font-size: 20px;
+	word-wrap: break-all;
+	hyphens: auto;
+	text-align: center;
+}
+
+.copy-title{
+	.title-bold();
+	margin: 2.5em 0;
+	color: #3e3e3e;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.copy-actions{
+	.title-bold();
+	margin: 3em 0;
+	color: #3e3e3e;
+	text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+	.post-actions-marg {
+		padding-top: 28px;
+	}
+}
+@media (max-width: 736px) {
+	.media-par {
+		font-size: 13px;
+	}
+	.media-heading {
+		font-size: 21px;
+	}
+}
+
+@media (max-width: 568px) {
+	.section-meeting-par {
+		text-align: center !important;
+		margin: 0px 25px;
+	}
+}
+@media (max-width: 667px) and (min-width: 601px) {
+	.media-par {
+		  text-align: center !important;
+		  width: 80% !important;
+		  margin: 0 auto;
+	}
+}
