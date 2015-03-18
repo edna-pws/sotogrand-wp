@@ -10628,13 +10628,16 @@ dd.p-0 {
   font-size: 14px;
   display: inline-block;
   text-transform: initial;
-  padding-right: 10px;
+  padding-right: 15px;
   font-weight: lighter !important;
   text-decoration: none;
   transition: all 0.5s;
 }
 .dropdown-content .list-inline > li a:hover {
   color: #4a8666;
+}
+.dropdown-content .list-inline > li:nth-child(4) a {
+  padding-right: 39px;
 }
 .dropdown-content img {
   border: 2px solid #fff;
@@ -10668,6 +10671,7 @@ dd.p-0 {
 }
 .dropdown-responsive-one {
   margin-left: 19% !important;
+  width: 30%;
 }
 .dropdown-responsive-link {
   color: #e3e3e3 !important;
