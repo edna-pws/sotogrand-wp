@@ -7270,7 +7270,6 @@ footer:after {
   -moz-webkit-appearance: none;
   -ms-webkit-appearance: none;
   -o-webkit-appearance: none;
-  -moz-appearance: none;
 }
 .custom-select:before {
   font-family: 'FontAwesome';
@@ -7951,7 +7950,7 @@ dd.p-0 {
   }
   .form-check {
     position: relative;
-    left: 181px;
+    left: 190px;
   }
   .form-desktop {
     margin-left: 50px;
@@ -7976,7 +7975,7 @@ dd.p-0 {
   }
   .form-check {
     position: relative;
-    left: 153px;
+    left: 168px;
   }
   .form-desktop {
     margin-left: 35px;
@@ -8051,7 +8050,7 @@ dd.p-0 {
   }
   .form-check {
     position: relative;
-    left: 115px;
+    left: 100px;
   }
 }
 @media (max-width: 384px) and (min-width: 376px) {
@@ -8121,7 +8120,7 @@ dd.p-0 {
   }
   .nav-bar-width-wrapper {
     width: 100% !important;
-    padding-left: 0px !important;
+    padding-left: 3px !important;
   }
   .form-date {
     width: 49% !important;
@@ -8197,10 +8196,6 @@ dd.p-0 {
     padding-left: 0px;
     padding-right: 0px;
   }
-  .nav-bar-width-wrapper {
-    margin: 0px !important;
-    padding-left: 9px !important;
-  }
   .navbar-brand {
     padding: 6px 6px !important;
   }
@@ -8232,6 +8227,11 @@ dd.p-0 {
   }
   .skin-white {
     padding-top: 50px;
+  }
+}
+@media (max-width: 1579px) and (min-width: 1025px) {
+  .navbar-header {
+    width: 100%;
   }
 }
 .post:hover {
@@ -8623,7 +8623,7 @@ dd.p-0 {
 }
 @media (max-width: 1280px) {
   .section-locations {
-    margin-top: 163px;
+    margin-top: 105px !important;
   }
   .section-contact {
     margin-top: 162px !important;
@@ -8631,7 +8631,7 @@ dd.p-0 {
 }
 @media (max-width: 414px) {
   .section-featured {
-    margin-top: -86px;
+    margin-top: -137px;
   }
 }
 .carousel-inner .banner-img img {
@@ -10646,7 +10646,7 @@ dd.p-0 {
   font-size: 14px;
   display: inline-block;
   text-transform: initial;
-  padding-left: 30px;
+  padding-left: 39px;
   font-weight: lighter !important;
   text-decoration: none;
   transition: all 0.5s;
@@ -10672,7 +10672,10 @@ dd.p-0 {
   min-width: 110px !important;
 }
 .list-width {
-  width: 70% !important;
+  width: 80% !important;
+  padding-left: 0;
+  list-style: none;
+  margin-left: -36px !important;
 }
 .dropdown:hover .dropdown-menu {
   display: none;
@@ -10714,17 +10717,21 @@ dd.p-0 {
   color: #e3e3e3 !important;
   font-size: 15px !important;
 }
+.dropdown-rooms-link {
+  margin-left: -35px !important;
+}
 @media (max-width: 1024px) {
   .dropdown-menu-mega {
-    margin-top: 0 !important;
-    background-color: rgba(34, 34, 37, 0.9);
-    color: #fff;
-    height: 204px !important;
+    background-color: #26282b !important;
+    height: 200px;
+    width: 100% !important;
+    position: relative;
+    margin-top: 9px !important;
   }
 }
 @media (max-width: 1366px) and (min-width: 1280px) {
   .dropdown-responsive-one {
-    margin-left: 15%;
+    margin-left: 12% !important;
     width: 42%;
   }
   .dropdown-responsive-left {
@@ -10742,15 +10749,26 @@ dd.p-0 {
   .dropdown-responsive-right-two {
     width: 46%;
   }
+  li:nth-child(4) a {
+    padding-left: 30px;
+  }
+  .dropdown-content .list-inline > li:nth-child(4) a {
+    padding-left: 30px;
+  }
 }
 @media (max-width: 1366px) {
   .dropdown-responsive-right {
     width: 36%;
   }
 }
+@media (max-width: 1280px) {
+  .dropdown-responsive-right-two {
+    width: 49%;
+  }
+}
 @media (max-width: 1024px) {
   .dropdown-responsive-one {
-    margin-left: 36px;
+    margin-left: 36px !important;
     width: 46%;
   }
   .dropdown-responsive-right {
