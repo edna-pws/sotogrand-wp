@@ -10805,7 +10805,7 @@ dd.p-0 {
     width: 49%;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 769px) {
   .dropdown-responsive-one {
     margin-left: 36px !important;
     width: 46%;
@@ -10882,7 +10882,7 @@ dd.p-0 {
     width: 42%;
   }
 }
-@media (max-width: 640px) {
+@media (max-width: 640px) and (min-width: 481px) {
   .dropdown-responsive-one {
     margin-left: 0 !important;
     width: 100%;
@@ -10895,7 +10895,7 @@ dd.p-0 {
     padding: 0px 37%;
   }
   .dropdown-responsive-right {
-    width: 100%;
+    width: 100% !important;
   }
   .dropdown-responsive-right-two {
     width: 100%;
@@ -10931,6 +10931,6 @@ dd.p-0 {
     padding-left: 39px;
   }
   .dropdown-responsive-right-two {
-    width: 42%;
+    width: 43%;
   }
 }
