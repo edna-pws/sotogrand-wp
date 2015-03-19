@@ -9061,9 +9061,13 @@ dd.p-0 {
   }
   .meeting-col {
     padding-top: 20px;
+    margin-bottom: 30px;
   }
   .meeting-view {
     margin: 0 auto;
+  }
+  .meeting-img {
+    width: 100%;
   }
 }
 @media (max-width: 414px) and (min-width: 320px) {
@@ -9090,6 +9094,9 @@ dd.p-0 {
     min-width: 295px !important;
     height: 214px !important;
     min-height: 200px !important;
+  }
+  .section-media-space {
+    padding-left: 4px;
   }
 }
 @media (max-width: 736px) {
