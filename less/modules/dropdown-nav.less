@@ -78,7 +78,10 @@
 
 
 .list-width {
-  width: 70% !important;
+  width: 80% !important;
+  padding-left: 0;
+  list-style: none;
+  margin-left: -36px;
 }
 
 .dropdown {
@@ -151,7 +154,7 @@ ul.list-inline.dropdown-rooms-link {
 
 @media (max-width: 1366px) and (min-width: 1280px) {
   .dropdown-responsive-one {
-    margin-left: 15%;
+    margin-left: 12% !important;
     width: 42%;
   }
   .dropdown-responsive-left {
@@ -169,11 +172,23 @@ ul.list-inline.dropdown-rooms-link {
   .dropdown-responsive-right-two {
     width: 46%;
   }
+    li:nth-child(4) a {
+    padding-left: 30px;
+  }
+    .dropdown-content .list-inline > li:nth-child(4) a {
+    padding-left: 30px;
+  }
 }
 
 @media (max-width: 1366px) {
   .dropdown-responsive-right {
     width: 36%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .dropdown-responsive-right-two {
+    width: 49%;
   }
 }
 
