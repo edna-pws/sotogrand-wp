@@ -4315,8 +4315,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 @media (max-width: 320px) {
   .nav-responsive-two > li > a {
-    font-weight: normal;
-    font-size: 16px;
+    font-weight: normal !important;
+    font-size: 16px !important;
   }
   .navbar-toggle {
     margin-right: 0;
@@ -6406,6 +6406,16 @@ a:hover {
   }
   .banner-promos {
     padding: 10px 0px !important;
+  }
+}
+@media (max-width: 320px) {
+  .section-meeting-banner {
+    margin-top: 0px !important;
+  }
+}
+@media (max-width: 568px) {
+  .section-meeting-banner {
+    margin-top: 0px !important;
   }
 }
 .banner-subtitle {
@@ -8619,6 +8629,9 @@ dd.p-0 {
 @media (max-width: 568px) and (min-width: 320px) {
   .section-locations {
     text-align: center;
+  }
+  .section-featured {
+    margin-top: -100px;
   }
 }
 @media (max-width: 1280px) {
