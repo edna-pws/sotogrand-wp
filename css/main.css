@@ -7270,6 +7270,7 @@ footer:after {
   -moz-webkit-appearance: none;
   -ms-webkit-appearance: none;
   -o-webkit-appearance: none;
+  -moz-appearance: none;
 }
 .custom-select:before {
   font-family: 'FontAwesome';
