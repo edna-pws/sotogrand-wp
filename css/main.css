@@ -8153,6 +8153,20 @@ dd.p-0 {
   .custom-select {
     width: 49% !important;
   }
+  .navbar-small-responsive {
+    margin-top: 20px;
+    padding-left: 0;
+  }
+  .nav-responsive-one > li {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-responsive-one > li > a {
+    line-height: 0;
+  }
+  .nav-responsive-two > li > a {
+    font-size: 14px;
+  }
 }
 @media (max-width: 320px) {
   .form-check {
@@ -10996,27 +11010,30 @@ dd.p-0 {
 }
 @media (max-width: 320px) {
   .dropdown-responsive-left {
-    padding: 0 24%;
+    padding: 0 14%;
   }
   .dropdown-responsive-right {
-    width: 39% !important;
+    width: 100% !important;
     margin: 0 auto;
   }
   .dropdown-responsive-left-one {
     padding: 0 27%;
   }
   .dropdown-responsive-right-two {
-    width: 55%;
+    width: 100% !important;
     margin: 0 auto;
   }
   .dropdown-rooms-link {
-    width: 43%;
-    margin-left: 25% !important;
+    width: 100%;
+    margin-left: 15% !important;
   }
   .list-width {
-    width: 47% !important;
+    width: 100% !important;
     padding-left: 0;
-    margin-left: 68px !important;
+    margin-left: 20px !important;
+  }
+  .list-inline .list-width > li:nth-child(4) a {
+    padding-left: 20px;
   }
 }
 @media (max-width: 1500px) {
