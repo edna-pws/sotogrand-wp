@@ -8061,7 +8061,7 @@ dd.p-0 {
     margin: 5px 0px;
   }
   .section-carousel {
-    margin-top: 0px;
+    margin-top: 0px !important;
   }
   .form-date {
     margin-left: 0 !important;
@@ -8153,6 +8153,9 @@ dd.p-0 {
   .form-check {
     position: relative;
     left: 100px;
+  }
+  .l-banner {
+    margin-top: 0 !important;
   }
 }
 @media (max-width: 384px) and (min-width: 376px) {
@@ -8283,7 +8286,7 @@ dd.p-0 {
 }
 @media (max-width: 320px) {
   .section-carousel {
-    margin-top: 0;
+    margin-top: 0 !important;
   }
   .nav-phone {
     bottom: 6px;
@@ -8748,7 +8751,7 @@ dd.p-0 {
 }
 @media (max-width: 375px) {
   .section-featured {
-    margin-top: -50px;
+    margin-top: -50px !important;
   }
 }
 @media (max-width: 568px) and (min-width: 320px) {
@@ -11017,6 +11020,8 @@ dd.p-0 {
   }
   .dropdown-responsive-right-two {
     width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
   }
   .dropdown-content .list-inline > li:nth-child(4) a {
     padding-left: 48px;
