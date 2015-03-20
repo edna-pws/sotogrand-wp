@@ -11116,14 +11116,16 @@ dd.p-0 {
 }
 @media (max-width: 320px) {
   .dropdown-responsive-left {
-    padding: 0 14%;
+    padding: 0px 15%;
+    width: 100% !important;
   }
   .dropdown-responsive-right {
     width: 100% !important;
     margin: 0 auto;
   }
   .dropdown-responsive-left-one {
-    padding: 0 27%;
+    padding: 0px 15%;
+    width: 100% !important;
   }
   .dropdown-responsive-right-two {
     width: 100% !important;
@@ -11131,7 +11133,7 @@ dd.p-0 {
   }
   .dropdown-rooms-link {
     width: 100%;
-    margin-left: 15% !important;
+    margin-left: 3% !important;
   }
   .list-width {
     width: 100% !important;
@@ -11139,7 +11141,7 @@ dd.p-0 {
     margin-left: 20px !important;
   }
   .dropdown-content .list-inline > li:nth-child(4) a {
-    padding-left: 20px !important;
+    padding-left: 40px !important;
   }
 }
 @media (max-width: 1500px) {
