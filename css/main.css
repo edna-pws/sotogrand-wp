@@ -10926,60 +10926,45 @@ dd.p-0 {
 }
 @media (max-width: 480px) {
   .dropdown-responsive-one {
-    margin-left: 0 !important;
+    text-align: center;
     width: 100% !important;
-    padding: 0 0%;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  .dropdown-responsive-left {
-    width: 100%;
-    padding: 0px 37%;
-  }
-  .dropdown-responsive-right {
-    width: 100% !important;
-  }
-  .dropdown-responsive-right-two {
-    width: 100%;
-  }
-  .list-width {
-    width: 30% !important;
-    padding-left: 0;
-    margin-left: 204px !important;
-  }
-  .dropdown-content .list-inline > li:nth-child(4) a {
-    padding-left: 20px;
   }
   .dropdown-rooms-link {
-    width: 21%;
-    margin-left: 38% !important;
-    text-align: center;
+    width: 34%;
+    margin-left: 31% !important;
   }
-  .dropdown-responsive-two {
-    width: 100% !important;
-    margin-right: 0;
-    padding-right: 0;
+  .dropdown-responsive-left-one {
+    padding: 0 31%;
   }
-  .dropdown-content .list-inline > li a {
-    padding-left: 20px;
+  .list-width {
+    width: 37% !important;
+    padding-left: 0;
+    margin-left: 107px !important;
   }
 }
 @media (max-width: 320px) {
   .dropdown-responsive-left {
-    width: 100%;
-    padding: 0px 26%;
+    padding: 0 24%;
   }
   .dropdown-responsive-right {
     width: 39% !important;
     margin: 0 auto;
   }
   .dropdown-responsive-left-one {
-    width: 100%;
     padding: 0 27%;
   }
   .dropdown-responsive-right-two {
     width: 55%;
     margin: 0 auto;
+  }
+  .dropdown-rooms-link {
+    width: 43%;
+    margin-left: 25% !important;
+  }
+  .list-width {
+    width: 47% !important;
+    padding-left: 0;
+    margin-left: 68px !important;
   }
 }
 @media (max-width: 1500px) {
