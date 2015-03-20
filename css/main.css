@@ -6394,6 +6394,13 @@ a:hover {
   .banner-sub {
     margin-top: 120px !important;
   }
+  .banner-title {
+    font-size: 54px;
+  }
+  .banner-subtitle {
+    position: relative;
+    bottom: 140px;
+  }
 }
 @media (max-width: 414px) {
   .banner-sub {
@@ -6445,6 +6452,26 @@ a:hover {
 .banner-caption img {
   width: auto;
 }
+@media (max-width: 1024px) {
+  .banner-caption {
+    top: 32%;
+  }
+}
+@media (max-width: 320px) {
+  .banner-img-custom {
+    width: 96%;
+    margin-top: 10px;
+  }
+  .banner-title {
+    font-size: 55px;
+  }
+  .banner-sub {
+    margin-top: -55px !important;
+  }
+  .banner-subtitle {
+    font-size: 12px;
+  }
+}
 .banner-sm {
   height: 205px;
 }
@@ -6464,6 +6491,11 @@ a:hover {
 }
 .properties {
   width: 358px;
+}
+@media (max-width: 320px) {
+  .banner-caption {
+    top: 17%;
+  }
 }
 .btn {
   border-radius: 0;
@@ -7424,10 +7456,11 @@ footer:after {
 .skin-white-services {
   margin-right: 60px;
 }
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   .l-banner {
     height: auto !important;
-    margin-bottom: 50px !important ;
+    margin-bottom: 50px !important;
+    margin-top: 95px !important;
   }
 }
 @media (max-width: 1280px) {
