@@ -7219,6 +7219,11 @@ footer:after {
     width: 100%;
   }
 }
+.custom-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 .form-control {
   border-radius: 0;
 }
