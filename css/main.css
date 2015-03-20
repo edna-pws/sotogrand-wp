@@ -6363,7 +6363,7 @@ a:hover {
 }
 @media (max-width: 1024px) {
   .banner-sub {
-    margin-top: 10px !important;
+    margin-top: 37px !important;
   }
   .banner {
     padding-top: 96px !important;
@@ -11122,7 +11122,7 @@ dd.p-0 {
     margin: 0 auto;
   }
   .dropdown-responsive-left-one {
-    padding: 0px 15%;
+    padding: 0 15%;
     width: 100% !important;
   }
   .dropdown-responsive-right-two {
