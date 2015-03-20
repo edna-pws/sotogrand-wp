@@ -7644,6 +7644,40 @@ dd.p-0 {
     top: 282px !important;
   }
 }
+@media (max-width: 375px) {
+  .home-control-left {
+    top: 93px !important;
+    height: 20px !important;
+  }
+  .home-control-right {
+    top: 93px !important;
+    height: 20px !important;
+  }
+}
+@media (max-width: 384px) {
+  .home-control-left {
+    top: 85px !important;
+  }
+  .home-control-right {
+    top: 85px !important;
+  }
+}
+@media (max-width: 736px) {
+  .home-control-left {
+    top: 239px !important;
+  }
+  .home-control-right {
+    top: 239px !important;
+  }
+}
+@media (max-width: 600px) {
+  .home-control-left {
+    top: 123px !important;
+  }
+  .home-control-right {
+    top: 123px !important;
+  }
+}
 @media (max-width: 600px) and (min-width: 569px) {
   .map-controls {
     width: 209px;
@@ -7658,6 +7692,12 @@ dd.p-0 {
     padding: 2px;
     top: 46%;
     left: 16%;
+  }
+  .home-control-left {
+    top: 135px !important;
+  }
+  .home-control-right {
+    top: 135px !important;
   }
 }
 @media (max-width: 414px) and (min-width: 320px) {
@@ -7674,6 +7714,12 @@ dd.p-0 {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .home-control-left {
+    top: 78px !important;
+  }
+  .home-control-right {
+    top: 78px !important;
+  }
 }
 @media (max-width: 320px) {
   .map-controls {
@@ -7684,6 +7730,14 @@ dd.p-0 {
   }
   .skin-gap {
     margin-top: 0px !important;
+  }
+  .home-control-left {
+    top: 57px !important;
+    height: 20px !important;
+  }
+  .home-control-right {
+    top: 57px !important;
+    height: 20px !important;
   }
 }
 @media (max-widthL 384px) {
@@ -8770,6 +8824,46 @@ dd.p-0 {
 .video-slider {
   min-width: 100%;
   min-height: 100%;
+}
+@media (max-width: 320px) {
+  .video-slider {
+    height: 172px !important;
+  }
+}
+@media (max-width: 568px) {
+  .video-slider {
+    height: 311px !important;
+  }
+}
+@media (max-width: 384px) {
+  .video-slider {
+    height: 208px;
+  }
+}
+@media (max-width: 375px) {
+  .video-slider {
+    height: 203px !important;
+  }
+}
+@media (max-width: 600px) {
+  .video-slider {
+    height: 330px;
+  }
+}
+@media (max-width: 667px) {
+  .video-slider {
+    height: 367px !important;
+  }
+}
+@media (max-width: 414px) {
+  .video-slider {
+    height: 225px !important;
+  }
+}
+@media (max-width: 736px) {
+  .video-slider {
+    height: 406px;
+  }
 }
 .nav-tabs-primary {
   border-bottom: 0;
