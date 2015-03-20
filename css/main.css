@@ -7593,10 +7593,10 @@ dd.p-0 {
 }
 @media (max-width: 1024px) {
   .home-control-right {
-    top: 408px !important;
+    top: 304px !important;
   }
   .home-control-left {
-    top: 408px !important;
+    top: 304px !important;
   }
   .container-fluid {
     padding-left: 13px;
@@ -7605,10 +7605,10 @@ dd.p-0 {
 }
 @media (max-width: 768px) {
   .home-control-right {
-    top: 318px !important;
+    top: 282px !important;
   }
   .home-control-left {
-    top: 318px !important;
+    top: 282px !important;
   }
 }
 @media (max-width: 600px) and (min-width: 569px) {
