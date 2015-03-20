@@ -8220,12 +8220,20 @@ dd.p-0 {
   .nav-responsive-one > li {
     width: 100%;
     text-align: center;
+    background-color: #eee;
+    margin-bottom: 1px;
   }
   .nav-responsive-one > li > a {
-    line-height: 0;
+    font-size: 15px !important;
+    line-height: 6px !important;
   }
   .nav-responsive-two > li > a {
     font-size: 14px;
+  }
+  .navbar-small-responsive {
+    border-top: #eee solid 7px !important;
+    margin-top: 32px;
+    padding-top: 9px;
   }
 }
 @media (max-width: 320px) {
