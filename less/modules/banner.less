@@ -18,6 +18,68 @@
 .section-meeting-banner-sub {
 	  margin-top: 4em !important;
 }
+
+.banner-subtitle{	
+	.title-hbold();
+	font-size: 17px;
+	margin:0;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	color: #6f6f6f;
+	letter-spacing: 13px;
+}
+
+.banner-img{
+	position: relative;
+
+	img{
+		max-width: 100%;
+	}
+}
+
+.banner-caption{
+	position: absolute;
+	top: 25%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+
+	img{
+		width:auto;
+	}
+}
+
+.banner-sm{
+	height: 205px;
+}
+
+.banner {
+	padding: 1.5em 0;
+	text-align: center;
+	background: url('../images/banner.jpg') no-repeat 0 -34em;
+	background-size: cover;
+	margin-top: 101px;
+
+	@media (max-width: 667px) {
+		padding-top: 45px !important;
+	}
+}
+
+
+.banner-promos {
+	padding: 10px 100px;
+}
+.main-rooms {
+	letter-spacing: 16px;
+	width: 360px;
+}
+.properties {
+	width: 358px;
+}
+
+
 @media (max-width: 1280px) {
 	.properties-banner {
 		margin-top: 202px;
@@ -61,12 +123,6 @@
 	}
 }
 
-@media (max-width: 667px) {
-	.banner {
-		padding-top: 45px !important;
-	}
-}
-
 
 @media (max-width: 414px) {
 	.banner-sub {
@@ -92,56 +148,59 @@
 		margin-top: 0px !important;
 	}
 }
-.banner-subtitle{	
-	.title-hbold();
-	font-size: 17px;
-	margin:0;
-	font-weight: 500;
-	text-align: center;
-	text-transform: uppercase;
-	color: #6f6f6f;
-	letter-spacing: 13px;
+@media (max-width: 480px) {
+	.banner-sub {
+		margin-top: 31px;
+	}
 }
-
-#banner-img{
-	position: relative;
-
-	img{
-		max-width: 100%;
+@media (max-width: 384px) {
+	.banner-sub {
+		margin-top: 120px !important;
+	}
+	.banner-title {
+		font-size: 54px;
+	}
+	.banner-subtitle {
+		position: relative;
+ 		bottom: 140px;
 	}
 }
 
-#banner-caption{
-	position: absolute;
-	top: 25%;
-	left: 0;
-	right: 0;
-	margin: auto;
-	text-align: center;
-
-	img{
-		width:auto;
+@media (max-width: 375px) {
+	.banner-subtitle {
+	  position: relative;
+	  bottom: 31px;
 	}
 }
 
-.banner-sm{
-	height: 205px;
+@media (max-width: 320px) {
+	.banner-caption {
+		top: 17%
+	}
 }
 
-.banner{
-	padding: 1.5em 0;
-	text-align: center;
-	background: url('../images/banner.jpg') no-repeat 0 -34em;
-	background-size: cover;
-	margin-top: 101px;
+@media (max-width: 1024px) {
+	.banner-caption {
+		top: 32%
+	}
+	.banner {
+	  margin-top: 197px !important;
+	}
 }
-.banner-promos {
-	padding: 10px 100px;
-}
-.main-rooms {
-	letter-spacing: 16px;
-	width: 360px;
-}
-.properties {
-	width: 358px;
+
+
+@media (max-width: 320px) {
+	.banner-img-custom {
+		width: 96%;
+  		margin-top: 10px;
+	}
+	.banner-title {
+		font-size: 37px;
+	}
+	.banner-sub {
+		margin-top: -55px !important;
+	}
+	.banner {
+	  margin-top: 52px !important;
+	}
 }
